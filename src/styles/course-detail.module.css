@@ -1,0 +1,452 @@
+.imageIcon {
+  position: relative;
+  border-radius: 24px;
+  width: 596px;
+  height: 381px;
+  object-fit: cover;
+}
+.age,
+.description,
+.title {
+  position: relative;
+  line-height: 125%;
+}
+.age {
+  text-align: center;
+  transform: rotate(-0.25deg);
+  transform-origin: 0 0;
+}
+.description,
+.title {
+  align-self: stretch;
+}
+.title {
+  font-size: var(--font-size-3xl);
+  color: var(--color-sienna);
+  opacity: 0.8;
+}
+.description {
+  color: var(--color-rosybrown);
+}
+.text {
+  align-self: stretch;
+  display: flex;
+  flex-direction: column;
+  align-items: flex-start;
+  justify-content: flex-start;
+  gap: var(--gap-5xl);
+}
+.buttonlabel {
+  position: relative;
+  line-height: 125%;
+  transform: rotate(-0.25deg);
+  transform-origin: 0 0;
+}
+.button {
+  border-radius: var(--br-27xl);
+  background-color: var(--color-lightcoral);
+  display: flex;
+  flex-direction: row;
+  cursor: pointer;
+  padding: var(--padding-5xl) var(--padding-21xl);
+  align-items: center;
+  justify-content: flex-start;
+}
+.buttonWrapper,
+.info {
+  flex-direction: column;
+  align-items: flex-start;
+}
+.buttonWrapper {
+  display: flex;
+  justify-content: flex-start;
+  text-align: center;
+  color: var(--color-snow);
+}
+.info {
+  flex: 1;
+  gap: var(--gap-21xl);
+}
+.course,
+.courseWrapper,
+.info {
+  display: flex;
+  justify-content: flex-start;
+}
+.course {
+  align-self: stretch;
+  flex-direction: row;
+  align-items: center;
+  gap: 48px;
+}
+.courseWrapper {
+  position: absolute;
+  top: 91px;
+  left: 255px;
+  width: 1168px;
+  flex-direction: column;
+  align-items: flex-start;
+}
+.coursedetailInner {
+  position: relative;
+  background-color: var(--color-white);
+  width: 1633px;
+  height: 471px;
+}
+.schlafCoaching {
+  align-self: stretch;
+  position: relative;
+  line-height: 125%;
+  opacity: 0.8;
+}
+.meinNameIst {
+  margin-block-start: 0;
+  margin-block-end: 29.23px;
+}
+.inFreiburgHabe {
+  margin: 0;
+}
+.meinNameIstContainer {
+  align-self: stretch;
+  position: relative;
+  font-size: var(--font-size-3xl);
+  line-height: 125%;
+  opacity: 0.65;
+}
+.schlafCoachingParent {
+  flex: 1;
+  display: flex;
+  flex-direction: column;
+  align-items: flex-start;
+  justify-content: flex-start;
+  gap: var(--gap-9xl);
+}
+.coursedetailChild {
+  align-self: stretch;
+  margin-top: 60px;
+  background-color: var(--color-white);
+  display: flex;
+  flex-direction: row;
+  padding: 56px var(--padding-221xl) var(--padding-61xl);
+  align-items: center;
+  justify-content: center;
+  font-size: var(--font-size-21xl);
+  color: var(--color-sienna);
+}
+.image44Icon {
+  position: relative;
+  border-radius: 228.5px;
+  width: 407.01px;
+  height: 406px;
+  object-fit: cover;
+}
+.meinNameIst1,
+.natalieSchrder {
+  align-self: stretch;
+  position: relative;
+  font-size: var(--font-size-21xl);
+  line-height: 125%;
+  color: var(--color-sienna);
+  text-align: left;
+  opacity: 0.8;
+}
+.meinNameIst1 {
+  font-size: var(--font-size-3xl);
+  opacity: 0.65;
+}
+.button1,
+.image44Parent {
+  display: flex;
+  flex-direction: row;
+  align-items: center;
+}
+.button1 {
+  border-radius: var(--br-27xl);
+  background-color: #ffe3e3;
+  padding: var(--padding-5xl) var(--padding-21xl);
+  justify-content: flex-start;
+  cursor: pointer;
+}
+.image44Parent {
+  align-self: stretch;
+  background-color: var(--color-white);
+  padding: var(--padding-81xl) var(--padding-221xl);
+  justify-content: center;
+  gap: var(--gap-37xl);
+  text-align: center;
+}
+.dasSagenUnsere {
+  position: relative;
+  line-height: 125%;
+  display: inline-block;
+  width: 684px;
+}
+.score {
+  position: relative;
+  line-height: 160%;
+}
+.starsChild,
+.starsChild1 {
+  position: relative;
+  border-radius: var(--br-11xs);
+  width: 55px;
+  height: 55px;
+}
+.starsChild1 {
+  opacity: 0.4;
+}
+.stars {
+  display: flex;
+  flex-direction: row;
+  align-items: flex-start;
+  justify-content: flex-start;
+  gap: var(--gap-6xs);
+}
+.score1,
+.totalrating {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+.score1 {
+  position: relative;
+  line-height: 160%;
+  width: 142.7px;
+  height: 37.77px;
+  flex-shrink: 0;
+}
+.totalrating {
+  align-self: stretch;
+  border-radius: var(--br-base);
+  background-color: var(--color-lavenderblush-200);
+  flex-direction: column;
+  padding: 0 var(--padding-61xl);
+  gap: var(--gap-8xl);
+  text-align: center;
+  font-size: 23.49px;
+  color: var(--color-slategray);
+  font-family: var(--font-poppins);
+}
+.starsChild2 {
+  position: relative;
+  border-radius: 1.26px;
+  width: 34.67px;
+  height: 34.67px;
+}
+.stars1 {
+  display: flex;
+  flex-direction: row;
+  align-items: flex-start;
+  justify-content: flex-start;
+  gap: var(--gap-9xs);
+}
+.text1 {
+  position: relative;
+  line-height: 160%;
+  display: inline-block;
+  width: 409.94px;
+}
+.authorChild {
+  position: relative;
+  border-radius: 50%;
+  width: 68.55px;
+  height: 68.55px;
+  object-fit: cover;
+}
+.anita25 {
+  position: relative;
+  line-height: 160%;
+  display: flex;
+  align-items: center;
+  width: 142.7px;
+  height: 37.77px;
+  flex-shrink: 0;
+}
+.author,
+.review {
+  display: flex;
+  justify-content: flex-start;
+}
+.author {
+  flex-direction: row;
+  align-items: center;
+  gap: var(--gap-3xl);
+  font-size: var(--font-size-3xl);
+  color: var(--color-slategray);
+  font-family: var(--font-poppins);
+}
+.review {
+  border-radius: var(--br-base);
+  background-color: var(--color-lavenderblush-200);
+  flex-direction: column;
+  padding: var(--padding-21xl);
+  align-items: flex-start;
+  gap: var(--gap-13xl);
+}
+.starsChild11 {
+  position: relative;
+  border-radius: 1.26px;
+  width: 34.67px;
+  height: 34.67px;
+  opacity: 0.4;
+}
+.dasSagenUnsereKundenParent,
+.totalratingParent {
+  align-self: stretch;
+  display: flex;
+  justify-content: flex-start;
+}
+.totalratingParent {
+  overflow-x: auto;
+  flex-direction: row;
+  align-items: flex-end;
+  gap: var(--gap-5xl);
+  font-size: var(--font-size-xl);
+  color: var(--color-dimgray-100);
+}
+.dasSagenUnsereKundenParent {
+  background-color: var(--color-white);
+  overflow: hidden;
+  flex-shrink: 0;
+  flex-direction: column;
+  padding: var(--padding-61xl) var(--padding-221xl) var(--padding-141xl);
+  align-items: flex-start;
+  gap: var(--gap-21xl);
+  font-size: 46.31px;
+  color: var(--color-sienna);
+}
+.soulfi2023 {
+  position: relative;
+  font-size: var(--font-size-mini);
+  line-height: 160%;
+  font-family: var(--font-poppins);
+  display: flex;
+  align-items: center;
+  width: 309px;
+  height: 28px;
+  flex-shrink: 0;
+  opacity: 0.7;
+}
+.betterparentsParent {
+  display: flex;
+  flex-direction: column;
+  align-items: flex-start;
+  justify-content: flex-start;
+  gap: var(--gap-2xl);
+}
+.impressum {
+  position: relative;
+  line-height: 160%;
+  font-weight: 500;
+  display: flex;
+  align-items: center;
+  width: 309px;
+  height: 29px;
+  flex-shrink: 0;
+}
+.frameChild {
+  position: relative;
+  border-top: 1px solid var(--color-white);
+  box-sizing: border-box;
+  width: 255px;
+  height: 1px;
+  opacity: 0.2;
+}
+.datenschutz {
+  position: relative;
+  line-height: 160%;
+  font-weight: 500;
+  display: flex;
+  align-items: center;
+  width: 309px;
+  height: 28px;
+  flex-shrink: 0;
+}
+.impressumParent {
+  display: flex;
+  flex-direction: column;
+  align-items: flex-end;
+  justify-content: flex-start;
+  gap: var(--gap-3xs);
+}
+.kurseEntdecken {
+  position: relative;
+  line-height: 160%;
+  font-weight: 500;
+  display: flex;
+  align-items: center;
+  width: 192px;
+  height: 29px;
+  flex-shrink: 0;
+}
+.kurseEntdeckenParent {
+  display: flex;
+  flex-direction: column;
+  align-items: flex-start;
+  justify-content: flex-start;
+  gap: var(--gap-3xs);
+}
+.frameGroup {
+  flex-direction: row;
+  justify-content: center;
+  gap: var(--gap-8xl);
+  font-size: var(--font-size-sm);
+  font-family: var(--font-poppins);
+}
+.coursedetail,
+.features3,
+.frameGroup {
+  display: flex;
+  align-items: flex-start;
+}
+.features3 {
+  align-self: stretch;
+  background-color: var(--color-lightcoral);
+  overflow: hidden;
+  flex-shrink: 0;
+  flex-direction: row;
+  padding: var(--padding-81xl) var(--padding-221xl);
+  justify-content: space-between;
+  font-size: 37.26px;
+  color: var(--color-white);
+}
+.coursedetail {
+  position: relative;
+  width: 100%;
+  overflow-y: auto;
+  flex-direction: column;
+  justify-content: center;
+  text-align: left;
+  font-size: var(--font-size-xl);
+  color: var(--color-lightcoral);
+  font-family: var(--font-josefin-sans);
+}
+.attributes {
+  display: flex;
+  flex-direction: row;
+  gap: 32px;
+}
+.category, .age{
+  display: flex;
+  flex-direction: column;
+  align-items: flex-start;
+}
+
+@media screen and (max-width: 1200px) {
+  .header {
+    padding-left: var(--padding-61xl);
+    padding-right: var(--padding-61xl);
+    box-sizing: border-box;
+  }
+}
+@media screen and (max-width: 960px) {
+  .kurseDurchsuchenWrapper {
+    display: none;
+  }
+  .header {
+    padding-left: var(--padding-xl);
+    padding-right: var(--padding-xl);
+    box-sizing: border-box;
+  }
+}
+

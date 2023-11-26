@@ -1,0 +1,128 @@
+.course {
+    align-self: stretch;
+    flex-direction: row;
+    align-items: center;
+    cursor: pointer;
+    gap: var(--gap-48xl);
+}
+.imageIcon {
+    position: relative;
+    border-radius: var(--br-10xl);
+    width: 475px;
+    height: 301px;
+    cursor: pointer;
+    object-fit: cover;
+  }
+  .description,
+  .title {
+    align-self: stretch;
+    position: relative;
+    line-height: 125%;
+  }
+  .title {
+    opacity: 0.8;
+  }
+  .description {
+    font-size: var(--font-size-xl);
+    color: var(--color-rosybrown);
+  }
+  .text {
+    align-self: stretch;
+    display: flex;
+    flex-direction: column;
+    align-items: flex-start;
+    justify-content: flex-start;
+    gap: var(--gap-5xl);
+  }
+  .age {
+    position: relative;
+    line-height: 125%;
+    transform: rotate(-0.25deg);
+    transform-origin: 0 0;
+  }
+  .agelabel {
+    border-radius: var(--br-27xl);
+    border: 2px solid var(--color-lightcoral-100);
+    display: flex;
+    flex-direction: row;
+    padding: var(--padding-base) var(--padding-5xl);
+    align-items: center;
+    justify-content: flex-start;
+  }
+  .arrowChild {
+    position: absolute;
+    top: 0;
+    left: 1.47px;
+    border-radius: 17.35px;
+    background-color: var(--color-snow);
+    width: 2.01px;
+    height: 8.83px;
+    transform: rotate(-137.2deg);
+  }
+  .arrow,
+  .arrowChild,
+  .arrowItem {
+    transform-origin: 0 0;
+  }
+  .arrowItem {
+    position: absolute;
+    top: -10.63px;
+    left: 0;
+    border-radius: 17.35px;
+    background-color: var(--color-snow);
+    width: 2.01px;
+    height: 8.83px;
+    transform: rotate(-42.8deg);
+  }
+  .arrow {
+    position: relative;
+    width: 12px;
+    height: 7.95px;
+    transform: rotate(-90deg);
+  }
+  .button {
+    border-radius: var(--br-27xl);
+    background-color: var(--color-lightcoral);
+    cursor: pointer;
+    display: flex;
+    flex-direction: row;
+    padding: var(--padding-base) var(--padding-5xl);
+    align-items: center;
+    justify-content: flex-start;
+    gap: var(--gap-sm);
+    color: var(--color-snow);
+  }
+  .agelabelParent {
+    flex-direction: row;
+    align-items: flex-start;
+    gap: var(--gap-9xl);
+    text-align: center;
+    font-size: var(--font-size-xl);
+    color: var(--color-lightcoral);
+  }
+  .agelabelParent,
+  .course,
+  .info {
+    display: flex;
+    justify-content: flex-start;
+  }
+  .info {
+    flex: 1;
+    flex-direction: column;
+    align-items: flex-start;
+    gap: var(--gap-13xl);
+}
+.arrowWhite {
+    fill: red !important; 
+    color: red !important; 
+}
+
+.defaultColor {
+    color: #656060;
+}
+
+.category, .age {
+  display: flex;
+  flex-direction: column;
+  align-items: flex-start;
+}

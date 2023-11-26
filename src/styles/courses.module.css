@@ -1,0 +1,334 @@
+.weedyALogoOfAStylizedOfIcon {
+  position: relative;
+  width: 37.29px;
+  height: 49.23px;
+  object-fit: cover;
+}
+.betterparent {
+  position: relative;
+  line-height: 40.17px;
+}
+.logo {
+  display: flex;
+  flex-direction: row;
+  padding: 0 var(--padding-xs);
+  align-items: center;
+  justify-content: center;
+  gap: var(--gap-xs);
+}
+.bersicht {
+  opacity: 0.7;
+  cursor: pointer;
+}
+.bersicht,
+.coaches {
+  position: relative;
+}
+.bersichtParent {
+  display: flex;
+  flex-direction: row;
+  align-items: flex-start;
+  justify-content: flex-start;
+  gap: var(--gap-37xl);
+}
+.frameParent,
+.header,
+.kurseDurchsuchenWrapper {
+  display: flex;
+  flex-direction: row;
+  align-items: center;
+}
+.frameParent {
+  justify-content: flex-start;
+  gap: var(--gap-45xl);
+  font-size: var(--font-size-xl);
+  font-family: var(--font-josefin-sans);
+}
+.header {
+  align-self: stretch;
+  background-color: var(--color-white);
+  border-bottom: 1px solid var(--color-mistyrose-100);
+  padding: var(--padding-5xl) var(--padding-221xl);
+  justify-content: space-between;
+  font-family: var(--font-pacifico);
+}
+.meineCoachingangebote {
+  align-self: stretch;
+  position: relative;
+  line-height: 125%;
+}
+
+.frameChild {
+  align-self: stretch;
+  position: relative;
+  border-top: 1px solid var(--color-black);
+  box-sizing: border-box;
+  height: 1px;
+  opacity: 0.2;
+}
+.courseParent {
+  align-self: stretch;
+  display: flex;
+  flex-direction: column;
+  align-items: flex-start;
+  justify-content: flex-start;
+  gap: var(--gap-13xl);
+  font-size: var(--font-size-3xl);
+}
+.frameInner {
+  position: relative;
+  border-radius: var(--br-xs);
+  background-color: var(--color-lightcoral);
+  width: 62px;
+  height: 57px;
+  z-index: 0;
+}
+.groupChild {
+  top: 0;
+  left: -1.92px;
+  border-radius: 22.58px;
+  background-color: var(--color-snow);
+  width: 2.61px;
+  height: 11.49px;
+  transform: rotate(42.8deg);
+}
+.groupChild,
+.groupItem,
+.rectangleGroup {
+  position: absolute;
+  transform-origin: 0 0;
+}
+.groupItem {
+  top: 13.84px;
+  left: 0;
+  border-radius: 22.58px;
+  background-color: var(--color-snow);
+  width: 2.61px;
+  height: 11.49px;
+  transform: rotate(137.2deg);
+}
+.rectangleGroup {
+  margin: 0 !important;
+  top: 21px;
+  left: 36.68px;
+  width: 15.61px;
+  height: 10.35px;
+  transform: rotate(90deg);
+  z-index: 1;
+}
+.rectangleParent {
+  display: flex;
+  flex-direction: column;
+  align-items: flex-start;
+  justify-content: flex-start;
+  position: relative;
+  gap: var(--gap-3xs);
+}
+.b,
+.b1,
+.b2,
+.b3 {
+  position: relative;
+  line-height: 125%;
+  display: inline-block;
+  flex-shrink: 0;
+}
+.b {
+  color: var(--color-lightcoral);
+  width: 16px;
+}
+.b1,
+.b2,
+.b3 {
+  width: 24px;
+  opacity: 0.2;
+}
+.b2,
+.b3 {
+  width: 22px;
+}
+.b3 {
+  width: 25px;
+}
+.frameChild1 {
+  position: relative;
+  border-radius: var(--br-xs);
+  background-color: var(--color-lightcoral);
+  width: 61px;
+  height: 57px;
+  z-index: 0;
+}
+.groupInner {
+  top: 0;
+  left: 1.92px;
+  border-radius: 22.58px;
+  background-color: var(--color-snow);
+  width: 2.61px;
+  height: 11.49px;
+  transform: rotate(-137.2deg);
+}
+.groupChild1,
+.groupDiv,
+.groupInner {
+  position: absolute;
+  transform-origin: 0 0;
+}
+.groupChild1 {
+  top: -13.84px;
+  left: 0;
+  border-radius: 22.58px;
+  background-color: var(--color-snow);
+  width: 2.61px;
+  height: 11.49px;
+  transform: rotate(-42.8deg);
+}
+.groupDiv {
+  margin: 0 !important;
+  top: 36.61px;
+  left: 27.79px;
+  width: 15.61px;
+  height: 10.35px;
+  transform: rotate(-90deg);
+  z-index: 1;
+}
+.frameGroup,
+.meineCoachingangeboteParent {
+  display: flex;
+  flex-direction: row;
+  align-items: center;
+  justify-content: flex-start;
+  gap: 33px;
+  font-size: 23.95px;
+  color: var(--color-black);
+}
+.meineCoachingangeboteParent {
+  align-self: stretch;
+  background-color: var(--color-white);
+  flex-direction: column;
+  padding: var(--padding-61xl) var(--padding-221xl);
+  font-size: 46.31px;
+  color: var(--color-sienna);
+}
+.soulfi2023 {
+  position: relative;
+  font-size: var(--font-size-mini);
+  line-height: 160%;
+  font-family: var(--font-poppins);
+  display: flex;
+  align-items: center;
+  width: 309px;
+  height: 28px;
+  flex-shrink: 0;
+  opacity: 0.7;
+}
+.betterparentsParent {
+  display: flex;
+  flex-direction: column;
+  align-items: flex-start;
+  justify-content: flex-start;
+  gap: var(--gap-2xl);
+}
+.impressum {
+  position: relative;
+  line-height: 160%;
+  font-weight: 500;
+  display: flex;
+  align-items: center;
+  width: 309px;
+  height: 29px;
+  flex-shrink: 0;
+}
+.lineDiv {
+  position: relative;
+  border-top: 1px solid var(--color-white);
+  box-sizing: border-box;
+  width: 255px;
+  height: 1px;
+  opacity: 0.2;
+}
+.datenschutz {
+  position: relative;
+  line-height: 160%;
+  font-weight: 500;
+  display: flex;
+  align-items: center;
+  width: 309px;
+  height: 28px;
+  flex-shrink: 0;
+}
+.impressumParent {
+  display: flex;
+  flex-direction: column;
+  align-items: flex-end;
+  justify-content: flex-start;
+  gap: var(--gap-3xs);
+}
+.kurseEntdecken {
+  position: relative;
+  line-height: 160%;
+  font-weight: 500;
+  display: flex;
+  align-items: center;
+  width: 192px;
+  height: 29px;
+  flex-shrink: 0;
+}
+.kurseEntdeckenParent {
+  display: flex;
+  flex-direction: column;
+  align-items: flex-start;
+  justify-content: flex-start;
+  gap: var(--gap-3xs);
+}
+.frameContainer {
+  flex-direction: row;
+  justify-content: center;
+  gap: var(--gap-8xl);
+  font-size: var(--font-size-sm);
+  font-family: var(--font-poppins);
+}
+.courses,
+.features3,
+.frameContainer {
+  display: flex;
+  align-items: flex-start;
+}
+.features3 {
+  align-self: stretch;
+  background-color: var(--color-lightcoral);
+  overflow: hidden;
+  flex-shrink: 0;
+  flex-direction: row;
+  padding: var(--padding-81xl) var(--padding-221xl);
+  justify-content: space-between;
+  font-size: 37.26px;
+  color: var(--color-white);
+}
+.courses {
+  position: relative;
+  width: 100%;
+  overflow-y: auto;
+  flex-direction: column;
+  justify-content: flex-start;
+  text-align: left;
+  font-size: var(--font-size-7xl);
+  color: var(--color-lightcoral);
+  font-family: var(--font-josefin-sans);
+}
+@media screen and (max-width: 1200px) {
+  .header {
+    padding-left: var(--padding-61xl);
+    padding-right: var(--padding-61xl);
+    box-sizing: border-box;
+  }
+}
+@media screen and (max-width: 960px) {
+  .kurseDurchsuchenWrapper {
+    display: none;
+  }
+  .header {
+    padding-left: var(--padding-xl);
+    padding-right: var(--padding-xl);
+    box-sizing: border-box;
+  }
+}

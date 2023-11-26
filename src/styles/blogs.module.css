@@ -1,0 +1,17 @@
+.content{
+    margin: var(--padding-61xl) var(--padding-221xl);
+    display: flex;
+    flex-direction: column;
+    margin-top: 56px;
+}
+
+.blogCards{
+    display: flex;
+    flex-wrap: wrap;
+    width: 100%;
+    gap: 32px;
+}
+
+.blogCards>* {
+    flex: 0 0 31.0%;
+}

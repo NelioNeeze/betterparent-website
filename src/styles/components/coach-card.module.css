@@ -1,0 +1,85 @@
+.cardbottom,
+.coursecard {
+  cursor: pointer;
+  display: flex;
+  align-items: flex-start;
+  justify-content: flex-start;
+}
+.imageIcon {
+  border-radius: 16px;
+  max-width: 100%;
+  width: 100%;
+  object-fit: cover;
+  overflow: hidden;
+  height: 50%;
+  margin: 0;
+  padding: 0;
+}
+.coursecard {
+  flex: 1;
+  flex-direction: column;
+  min-width: calc(30% - 10px);
+  max-width: 33%;
+  text-decoration: none;
+  width: calc(30% - 10px); 
+}
+.cardbottom {
+    align-self: stretch;
+    border-radius: 0 0 var(--br-xl) var(--br-xl);
+    overflow: hidden;
+    flex-direction: column;
+    padding: var(--padding-13xl);
+    gap: 8px;
+    height: 60%;
+}
+.label {
+  display: flex;
+  flex-direction: row;
+  align-items: center;
+  justify-content: flex-start;
+  gap: 12px;
+}
+.charlotteHoffmann {
+    position: relative;
+    line-height: 31px;
+    opacity: 0.8;
+}
+.arrow,
+.arrowChild,
+.arrowItem {
+  transform-origin: 0 0;
+}
+.description {
+  align-self: stretch;
+  position: relative;
+  font-size: var(--font-size-base);
+  line-height: 24px;
+  color: var(--color-dimgray-200);
+  opacity: 0.8;
+}
+.arrowChild {
+  position: absolute;
+  top: 0;
+  left: 1.55px;
+  border-radius: 19.69px;
+  background-color: var(--color-dimgray);
+  width: 2.19px;
+  height: 9.62px;
+  transform: rotate(-135deg);
+}
+.arrowItem {
+  position: absolute;
+  top: -12.06px;
+  left: 0;
+  border-radius: 19.69px;
+  background-color: var(--color-dimgray);
+  width: 2.19px;
+  height: 9.62px;
+  transform: rotate(-45deg);
+}
+.arrow {
+  position: relative;
+  width: 13.61px;
+  height: 8.35px;
+  transform: rotate(-90deg);
+}

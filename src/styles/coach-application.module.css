@@ -1,0 +1,12 @@
+.form{
+    display: flex;
+    gap: 16px;
+    flex-direction: column;
+    width: 500px;
+}
+
+.button{
+    height: 50px;
+    border-radius: 99px;
+    margin-top: 16px;
+}

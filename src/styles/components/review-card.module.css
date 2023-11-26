@@ -1,0 +1,86 @@
+.starsChild2 {
+    position: relative;
+    border-radius: 1.26px;
+    width: 34.67px;
+    height: 34.67px;
+  }
+  .stars1 {
+    display: flex;
+    flex-direction: row;
+    align-items: flex-start;
+    justify-content: flex-start;
+    gap: var(--gap-9xs);
+  }
+  .text3 {
+    position: relative;
+    line-height: 160%;
+    display: inline-block;
+    width: 409.94px;
+  }
+  .authorChild {
+    position: relative;
+    border-radius: 50%;
+    width: 68.55px;
+    height: 68.55px;
+    object-fit: cover;
+  }
+  .anita25 {
+    position: relative;
+    line-height: 160%;
+    display: flex;
+    align-items: center;
+    width: 142.7px;
+    height: 37.77px;
+    flex-shrink: 0;
+  }
+  .author,
+  .review {
+    display: flex;
+    justify-content: flex-start;
+  }
+  .author {
+    flex-direction: row;
+    align-items: center;
+    gap: var(--gap-3xl);
+    font-size: 23.49px;
+    color: var(--color-slategray);
+    font-family: var(--font-poppins);
+  }
+  .review {
+    border-radius: var(--br-base);
+    background-color: var(--color-lavenderblush-200);
+    flex-direction: column;
+    padding: var(--padding-21xl);
+    align-items: flex-start;
+    gap: var(--gap-13xl);
+  }
+  .starsChild11 {
+    position: relative;
+    border-radius: 1.26px;
+    width: 34.67px;
+    height: 34.67px;
+    opacity: 0.4;
+  }
+.dasSagenUnsereKundenParent,
+.totalratingParent {
+  align-self: stretch;
+  display: flex;
+  justify-content: flex-start;
+}
+.totalratingParent {
+  overflow-x: auto;
+  flex-direction: row;
+  align-items: flex-end;
+  gap: var(--gap-13xl);
+  font-size: var(--font-size-xl);
+  color: var(--color-dimgray-100);
+}
+.dasSagenUnsereKundenParent {
+  background-color: var(--color-white);
+  overflow: hidden;
+  flex-shrink: 0;
+  flex-direction: column;
+  padding: var(--padding-61xl) var(--padding-221xl) var(--padding-141xl);
+  align-items: flex-start;
+  gap: var(--gap-21xl);
+}

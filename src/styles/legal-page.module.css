@@ -1,0 +1,12 @@
+.content {
+    margin-top: 100px;
+    margin-bottom: 100px;
+    margin-left: 10%;
+    margin-right: 10%;
+}
+.text {
+    margin-top: 40px;
+    font-size: var(--font-size-2xl);
+    line-height: 140%;
+    opacity: 0.8;
+}

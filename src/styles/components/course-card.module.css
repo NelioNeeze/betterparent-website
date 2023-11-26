@@ -1,0 +1,107 @@
+.coursecard,
+.cardbottom,
+.coach {
+  display: flex;
+  justify-content: flex-start;
+}
+.imageIcon {
+    align-self: stretch;
+    position: relative;
+    border-radius: var(--br-xl) var(--br-xl) 0 0;
+    max-width: 100%;
+    overflow: hidden;
+    height: 356px;
+    flex-shrink: 0;
+    cursor: pointer;
+    object-fit: cover;
+}
+.label {
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    cursor: pointer;
+    justify-content: flex-start;
+    gap: var(--gap-base);
+}
+.sorgenfreierBabyschlaf {
+  position: relative;
+  line-height: 31px;
+  opacity: 0.8;
+}
+.arrowChild {
+    position: absolute;
+    top: 0;
+    left: 1.55px;
+    border-radius: 19.69px;
+    background-color: var(--color-dimgray);
+    width: 2.19px;
+    height: 9.62px;
+    transform: rotate(-135deg);
+}
+.arrow,
+.arrowChild,
+.arrowItem {
+    transform-origin: 0 0;
+}
+.arrowItem {
+    position: absolute;
+    top: -12.06px;
+    left: 0;
+    border-radius: 19.69px;
+    background-color: var(--color-dimgray);
+    width: 2.19px;
+    height: 9.62px;
+    transform: rotate(-45deg);
+}
+.arrow {
+    position: relative;
+    width: 13.61px;
+    height: 8.35px;
+    transform: rotate(-90deg);
+}
+.description {
+    align-self: stretch;
+    position: relative;
+    font-size: var(--font-size-base);
+    line-height: 24px;
+    color: var(--color-dimgray-200);
+    opacity: 0.8;
+}
+.coach {
+    align-self: stretch;
+    border-radius: var(--br-base);
+    background-color: var(--color-snow-100);
+    flex-direction: row;
+    padding: var(--padding-xs);
+    align-items: center;
+    gap: var(--gap-base);
+}
+.coachimageIcon {
+  position: relative;
+  border-radius: 50%;
+  width: 53px;
+  height: 53px;
+  object-fit: cover;
+}
+.mitAnikaSchiegle {
+  position: relative;
+  line-height: 31px;
+  font-weight: 600;
+  opacity: 0.8;
+}
+.cardbottom,
+.coursecard {
+  flex-direction: column;
+  align-items: flex-start;
+}
+.cardbottom {
+  align-self: stretch;
+  border-radius: 0 0 var(--br-xl) var(--br-xl);
+  background-color: var(--color-lavenderblush-100);
+  overflow: hidden;
+  padding: var(--padding-13xl);
+  gap: var(--gap-xl);
+}
+.coursecard {
+  min-width: 360px;
+}

@@ -1,0 +1,44 @@
+.content{
+    display: flex;
+    flex-direction: row;
+    gap: 56px;
+    padding: var(--padding-5xl) var(--padding-221xl);
+    margin-top: 32px;
+}
+
+.blogContent{
+    display: flex;
+    flex-direction: column;
+    gap: 32px;
+    width: 70%;
+}
+
+.image{
+    width: 100%;
+    max-height: 400px;
+    object-fit: cover;
+    border-radius: 16px;
+    margin-bottom: 16px;
+}
+
+.rightSection{
+    width: 30%;
+}
+
+.category{
+    background-color: #F8F5F3;
+    padding-left: 24px;
+    padding-right: 24px;
+    padding-top: 12px;
+    padding-bottom: 12px;
+    border-radius: 12px;
+    width: fit-content;
+}
+
+.coach{
+    background-color: #F8F5F3;
+    padding: 24px;
+    border-radius: 12px;
+    cursor: pointer;
+    width: fit-content;
+}

@@ -1,0 +1,341 @@
+
+.image44Icon {
+  position: relative;
+  border-radius: var(--br-10xl);
+  width: 513px;
+  height: 651px;
+  object-fit: cover;
+}
+.natalieSchrder {
+  align-self: stretch;
+  position: relative;
+  line-height: 125%;
+  opacity: 0.8;
+}
+.meinNameIst {
+  margin-block-start: 0;
+  margin-block-end: 29.23px;
+}
+.inFreiburgHabe {
+  margin: 0;
+}
+.meinNameIstContainer {
+  align-self: stretch;
+  position: relative;
+  font-size: var(--font-size-3xl);
+  line-height: 125%;
+  opacity: 0.65;
+}
+.natalieSchrderParent {
+  flex: 1;
+  display: flex;
+  flex-direction: column;
+  align-items: flex-start;
+  justify-content: flex-start;
+  gap: var(--gap-9xl);
+}
+.image44Parent {
+  align-self: stretch;
+  background-color: var(--color-white);
+  display: flex;
+  flex-direction: row;
+  padding: var(--padding-81xl) var(--padding-221xl);
+  align-items: center;
+  justify-content: center;
+  gap: 81px;
+  font-size: var(--font-size-21xl);
+}
+.meineCoachingangebote {
+  line-height: 125%;
+  display: inline-block;
+  width: 739px;
+}
+.imageIcon {
+  position: relative;
+  border-radius: var(--br-10xl);
+  width: 475px;
+  height: 301px;
+  object-fit: cover;
+}
+.description {
+  align-self: stretch;
+  position: relative;
+  font-size: var(--font-size-xl);
+  line-height: 125%;
+  color: var(--color-rosybrown);
+}
+.text {
+  align-self: stretch;
+  display: flex;
+  flex-direction: column;
+  align-items: flex-start;
+  justify-content: flex-start;
+  gap: var(--gap-5xl);
+}
+.age {
+  position: relative;
+  line-height: 125%;
+  transform: rotate(-0.25deg);
+  transform-origin: 0 0;
+}
+.agelabel {
+  border-radius: var(--br-27xl);
+  border: 2px solid var(--color-lightcoral-100);
+  display: flex;
+  flex-direction: row;
+  padding: var(--padding-base) var(--padding-5xl);
+  align-items: center;
+  justify-content: flex-start;
+}
+.arrowChild {
+  position: absolute;
+  top: 0;
+  left: 1.47px;
+  border-radius: 17.35px;
+  background-color: var(--color-snow);
+  width: 2.01px;
+  height: 8.83px;
+  transform: rotate(-137.2deg);
+}
+.arrow,
+.arrowChild,
+.arrowItem {
+  transform-origin: 0 0;
+}
+.arrowItem {
+  position: absolute;
+  top: -10.63px;
+  left: 0;
+  border-radius: 17.35px;
+  background-color: var(--color-snow);
+  width: 2.01px;
+  height: 8.83px;
+  transform: rotate(-42.8deg);
+}
+.arrow {
+  position: relative;
+  width: 12px;
+  height: 7.95px;
+  transform: rotate(-90deg);
+}
+.button {
+  border-radius: var(--br-27xl);
+  background-color: var(--color-lightcoral);
+  display: flex;
+  flex-direction: row;
+  padding: var(--padding-base) var(--padding-5xl);
+  align-items: center;
+  justify-content: flex-start;
+  gap: var(--gap-sm);
+  color: var(--color-snow);
+}
+.agelabelParent {
+  flex-direction: row;
+  align-items: flex-start;
+  gap: var(--gap-9xl);
+  text-align: center;
+  font-size: var(--font-size-xl);
+  color: var(--color-lightcoral);
+}
+.agelabelParent,
+.course,
+.info {
+  display: flex;
+  justify-content: flex-start;
+}
+.info {
+  flex: 1;
+  flex-direction: column;
+  align-items: flex-start;
+  gap: var(--gap-13xl);
+}
+.course {
+  align-self: stretch;
+  flex-direction: row;
+  align-items: center;
+  gap: var(--gap-48xl);
+}
+.frameChild {
+  align-self: stretch;
+  position: relative;
+  border-top: 1px solid var(--color-black);
+  box-sizing: border-box;
+  height: 1px;
+  opacity: 0.2;
+}
+.courseParent {
+  top: 128px;
+  left: 255px;
+  width: 1168px;
+  height: fit-content;
+  display: flex;
+  flex-direction: column;
+  align-items: flex-start;
+  justify-content: flex-start;
+  gap: var(--gap-13xl);
+  font-size: var(--font-size-3xl);
+}
+.meineCoachingangeboteParent {
+  background-color: var(--color-white);
+  padding: var(--padding-81xl) var(--padding-221xl);
+  width: 1633px;
+  height: fit-content;
+}
+.dasSagenUnsere {
+  position: relative;
+  line-height: 125%;
+  display: inline-block;
+  width: 684px;
+}
+.score {
+  position: relative;
+  line-height: 160%;
+}
+.starsChild,
+.starsChild1 {
+  position: relative;
+  border-radius: var(--br-11xs);
+  width: 55px;
+  height: 55px;
+}
+.starsChild1 {
+  opacity: 0.4;
+}
+.stars {
+  display: flex;
+  flex-direction: row;
+  align-items: flex-start;
+  justify-content: flex-start;
+  gap: var(--gap-6xs);
+}
+.score1,
+.totalrating {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+.score1 {
+  position: relative;
+  line-height: 160%;
+  width: 142.7px;
+  height: 37.77px;
+  flex-shrink: 0;
+}
+.totalrating {
+  align-self: stretch;
+  border-radius: var(--br-base);
+  background-color: var(--color-lavenderblush-200);
+  flex-direction: column;
+  padding: 0 var(--padding-61xl);
+  gap: var(--gap-8xl);
+  text-align: center;
+  font-size: 23.49px;
+  color: var(--color-slategray);
+  font-family: var(--font-poppins);
+}
+.soulfi2023 {
+  position: relative;
+  font-size: var(--font-size-mini);
+  line-height: 160%;
+  font-family: var(--font-poppins);
+  display: flex;
+  align-items: center;
+  width: 309px;
+  height: 28px;
+  flex-shrink: 0;
+  opacity: 0.7;
+}
+.betterparentsParent {
+  display: flex;
+  flex-direction: column;
+  align-items: flex-start;
+  justify-content: flex-start;
+  gap: var(--gap-2xl);
+}
+.impressum {
+  position: relative;
+  line-height: 160%;
+  font-weight: 500;
+  display: flex;
+  align-items: center;
+  width: 309px;
+  height: 29px;
+  flex-shrink: 0;
+}
+.frameInner {
+  position: relative;
+  border-top: 1px solid var(--color-white);
+  box-sizing: border-box;
+  width: 255px;
+  height: 1px;
+  opacity: 0.2;
+}
+.datenschutz {
+  position: relative;
+  line-height: 160%;
+  font-weight: 500;
+  display: flex;
+  align-items: center;
+  width: 309px;
+  height: 28px;
+  flex-shrink: 0;
+}
+.impressumParent {
+  display: flex;
+  flex-direction: column;
+  align-items: flex-end;
+  justify-content: flex-start;
+  gap: var(--gap-3xs);
+}
+.kurseEntdecken {
+  position: relative;
+  line-height: 160%;
+  font-weight: 500;
+  display: flex;
+  align-items: center;
+  width: 192px;
+  height: 29px;
+  flex-shrink: 0;
+}
+.kurseEntdeckenParent {
+  display: flex;
+  flex-direction: column;
+  align-items: flex-start;
+  justify-content: flex-start;
+  gap: var(--gap-3xs);
+}
+.frameGroup {
+  flex-direction: row;
+  justify-content: center;
+  gap: var(--gap-8xl);
+  font-size: var(--font-size-sm);
+  font-family: var(--font-poppins);
+}
+.coach,
+.features3,
+.frameGroup {
+  display: flex;
+  align-items: flex-start;
+}
+.features3 {
+  align-self: stretch;
+  background-color: var(--color-lightcoral);
+  overflow: hidden;
+  flex-shrink: 0;
+  flex-direction: row;
+  padding: var(--padding-81xl) var(--padding-221xl);
+  justify-content: space-between;
+  font-size: 37.26px;
+  color: var(--color-white);
+}
+.coach {
+  position: relative;
+  width: 100%;
+  overflow-y: auto;
+  flex-direction: column;
+  justify-content: center;
+  text-align: left;
+  font-size: 46.31px;
+  color: var(--color-sienna);
+  font-family: var(--font-josefin-sans);
+}
