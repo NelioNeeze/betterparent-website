@@ -41,7 +41,7 @@ const BlogDetail: NextPage = () => {
                 <div className={styles.blogContent}>
                     <img 
                         className={styles.image}
-                        src={process.env.NEXT_PUBLIC_STRAPI_IMAGE_URL + blogData?.attributes.image.data.attributes.url}
+                        src={blogData?.attributes.image.data.attributes.url}
                     ></img>
                     <Typography
                         variant="h4"

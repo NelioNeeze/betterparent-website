@@ -86,9 +86,6 @@ const CourseDetail: NextPage = () => {
             <p className={styles.meinNameIst}>
               {courseData?.attributes.detailedText}
             </p>
-            <p
-              className={styles.inFreiburgHabe}
-            >{`In Freiburg habe ich erst Grundschullehramt, dann Bildungswissenschaften & Bildungsmanagement studiert. Seit 2018 bin ich zertifizierte Stoffwindelberaterin. Im Frühjahr 2020 habe ich die Ausbildung zur Doula und dem holistischen Babycoach bei der Babycoachakademie erfolgreich abgeschlossen, sodass ich zukünftig viele tolle Geburten begleiten und Familien von Beginn der Schwangerschaft bis ins Kleinkindalter ganzheitlich betreuen und beraten darf.`}</p>
           </div>
         </div>
       </div>

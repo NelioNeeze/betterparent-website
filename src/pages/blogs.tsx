@@ -53,13 +53,14 @@ const Blogs: NextPage = () => {
                     ) : (
                         // Render blog cards when there are filtered blogs
                         filteredBlogs?.map((blog: BlogType) => (
+                            
                             <BlogCard
                             key={blog?.id}
                             className={blogStyles.blogCard}
                             title={blog?.attributes.title}
                             summary={blog?.attributes.summary}
-                            image={blog?.attributes.image.data.attributes.url}
-                            category={blog?.attributes.category.data.attributes.name}
+                            image={blog?.attributes?.image?.data?.attributes?.url}
+                            category={blog?.attributes?.category.data.attributes.name}
                             coach={blog?.attributes.coach.data.attributes.name}
                             id={blog?.id}
                             />

@@ -21,7 +21,7 @@ const BlogCard: NextPage<any> = ({
     return (
     <>
         <div className={styles.coursecard} onClick={() => onCourseClick(id)}>
-            <img className={styles.image} alt="" src={process.env.NEXT_PUBLIC_STRAPI_IMAGE_URL + image} />
+            <img className={styles.image} alt="" src={image} />
             <div className={styles.cardbottom}>
                 <b className={styles.charlotteHoffmann}>{title}</b>
                 <div className={styles.description}>von - {coach}</div>
